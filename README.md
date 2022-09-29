@@ -4,7 +4,7 @@
 
 <details>
 
-<summary><h3> Analysis of light curves </h3></summary>
+<summary><h2> Analysis of light curves </h2></summary>
 
 Light curves are graphs that show how the brightness of stars changes over a period of time.
 
@@ -29,7 +29,7 @@ stars grew, the accuracy and precision of PYCHEOPS failed. Only radii at 𝑟1 <
 
 <details>
 
-<summary><h3> Gravitational Wave Time Series Analysis </h3></summary>
+<summary><h2> Gravitational Wave Time Series Analysis </h2></summary>
 
 Two short duration signals of the detection of gravitational waves had noises removed using Time series analytical techniques such as, pre-whitening and band pass filters. This isolated the chirp signals of the 
 gravitational wave event detected form both sites A and B which was found to have time delay
@@ -54,7 +54,7 @@ From this, I was able to calculate at what angle in radians in which the gravita
 
 <details>
 
-<summary><h3> Butterfly Effect - Chaos </h3></summary>
+<summary><h2> Butterfly Effect - Chaos </h2></summary>
 something somethings jssjvs
 
 </details>

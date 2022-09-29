@@ -4,24 +4,6 @@
 
 <details>
 
-<summary><h3> Gravitational Wave Time Series Analysis </h3></summary>
-
-Two short duration signals of the detection of gravitational waves had noises removed using Time series analytical techniques such as, pre-whitening and band pass filters. This isolated the chirp signals of the 
-gravitational wave event detected form both sites A and B which was found to have time delay
-between each other, 𝑡𝑑𝑒𝑙𝑎𝑦 = 1.46 𝑚𝑠.
-
-<img src="visualisations/Raw%20signals.png">
-<img src="visualisations/filtered%20signals.png">
-<img src="visualisations/filtered%20signal%20ontop%20closer.png">
-<img src="visualisations/final%20signal.png">
-
-</details>
-
-
-
-
-<details>
-
 <summary><h3> Analysis of light curves </h3></summary>
 
 Light curves are graphs that show how the brightness of stars changes over a period of time.
@@ -32,8 +14,8 @@ My individual project was to analyse the accuracy of radii of stars with an elli
 
 
 I found that radii with an ellipsoidal 
-effect were within good precision as long as there was an offset. As the fractional radii of the 
-stars grew, the accuracy and precision of PYCHEOPS failed. Only radii at 𝑟1(larger stars) < 0.26 and 𝑟2(smaller star) <
+effect were within good precision as long as there was an offset of 0.002 on the larger star(r1) and offset of 0.0002 on the smaller star(r2). As the fractional radii of the 
+stars grew, the accuracy and precision of PYCHEOPS failed. Only radii at 𝑟1 < 0.26 and 𝑟2 <
 0.023 were where the values were accurate.
 
 <img src="visualisations/final%20final%20boy.png">
@@ -41,6 +23,30 @@ stars grew, the accuracy and precision of PYCHEOPS failed. Only radii at 𝑟1(l
 
 </details>
 
+
+
+
+
+<details>
+
+<summary><h3> Gravitational Wave Time Series Analysis </h3></summary>
+
+Two short duration signals of the detection of gravitational waves had noises removed using Time series analytical techniques such as, pre-whitening and band pass filters. This isolated the chirp signals of the 
+gravitational wave event detected form both sites A and B which was found to have time delay
+between each other, 𝑡𝑑𝑒𝑙𝑎𝑦 = 1.46 𝑚𝑠.
+
+<img src="visualisations/Raw%20signals.png">
+These were the raw data signals
+<img src="visualisations/filtered%20signals.png">
+This is the prewhitened and band-passed signal. There is a large spike at around 12s showing the chirp of the gravitaitonal wave
+<img src="visualisations/filtered%20signal%20ontop%20closer.png">
+At a closer glance, we can see an offset between the two signals by about 0.0014s
+<img src="visualisations/final%20signal.png">
+For clarity, the signals were placed ontop of each other to show that the signals detected by the interometers were the same. 
+
+From this, I was able to calculate at what angle in radians in which the gravitational wave passed through the detectors, 8.42 rad.
+
+</details>
 
 
 

@@ -57,6 +57,6 @@ From this, I was able to calculate at what angle in radians in which the gravita
 <details>
 
 <summary><h2> Butterfly Effect - Chaos </h2></summary>
-something somethings jssjvs
+something somethings blah blah 
 
 </details>

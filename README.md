@@ -26,10 +26,17 @@ between each other, 𝑡𝑑𝑒𝑙𝑎𝑦 = 1.46 𝑚𝑠.
 
 Light curves are graphs that show how the brightness of stars changes over a period of time.
 
-This project used the <a href="https://github.com/pmaxted/pycheops">PYCHEOPS </a> package to study binary stars and exoplanets.
+This project used the <a href="https://github.com/pmaxted/pycheops">PYCHEOPS </a> package to study binary stars and exoplanets, where it calculates things like the mass, radius, temperature etc.
 
-My individual project was to analyse the accuracy of radii of stars with an ellipsoidal effect calculated by PYCHEOPS. The ellipsoidal effect warps the shape of the star and so must be studued carefully. I used <a href="https://www.physik.uni-hamburg.de/en/hs/group-schmidt/members/wichmann-rainer/nightfall.html"> NIGHTFALL </a>, an astronomy application to simulate the lightcurves of stars, more accurate than PYCHEOPS.
+My individual project was to analyse the accuracy of radii of stars with an ellipsoidal effect calculated by PYCHEOPS. The ellipsoidal effect warps the shape of the star and so must be studued carefully. I used <a href="https://www.physik.uni-hamburg.de/en/hs/group-schmidt/members/wichmann-rainer/nightfall.html"> NIGHTFALL </a>, an astronomy application to simulate the lightcurves of stars, more accurate than PYCHEOPS. I used this program to model the radii obtained by PYCHEOPS and the final output radii by NIGHTFALL were compared.
 
+
+I found that radii with an ellipsoidal 
+effect were within good precision as long as there was an offset. As the fractional radii of the 
+stars grew, the accuracy and precision of PYCHEOPS failed. Only radii at 𝑟1(larger stars) < 0.26 and 𝑟2(smaller star) <
+0.023 were where the values were accurate.
+
+<img src="visualisations/final%20final%20boy.png">
 
 
 </details>

@@ -42,9 +42,9 @@ These were the raw data signals
 <img src="visualisations/filtered%20signals.png">
 This is the prewhitened and band-passed signal. There is a large spike at around 12s showing the chirp of the gravitaitonal wave
 <img src="visualisations/filtered%20signal%20ontop%20closer.png">
-At a closer glance, we can see an offset between the two signals by about 0.0014s
+At a closer glance, we can see an offset/time delay between the two signals. This was calculated by using crosss correlation technique. It was found to be about 0.0014s
 <img src="visualisations/final%20signal.png">
-For clarity, the signals were placed ontop of each other to show that the signals detected by the interometers were the same. 
+By shifting one of the signals by the offset, it shows that the signals detected by the interferomters were the same and that it indeed is the gravitational wave we have detected!
 
 From this, I was able to calculate at what angle in radians in which the gravitational wave passed through the detectors, 8.42 rad.
 

@@ -1,5 +1,5 @@
 
-<h1> Portfolio Projects </h1>
+<h1> Academic Projects </h1>
 
 
 <details>

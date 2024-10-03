@@ -4,7 +4,7 @@
 
 <details>
 
-<summary><h2> Analysis of light curves </h2></summary>
+<summary><h2> Analysis of light curves to search for Exoplanets </h2></summary>
 
 Light curves are graphs that show how the brightness of stars changes over a period of time.
 
